@@ -1,0 +1,32 @@
+annotations:
+  artifacthub.io/images: |
+    - name: Flowable UI
+      image: flowable/flowable-ui:6.8.0
+    - name: Flowable REST
+      image: flowable/flowable-rest:6.8.0
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: |
+    - name: Flowable OSS repository
+      url: https://github.com/flowable/flowable-engine
+    - name: Flowable OSS website
+      url: https://www.flowable.com/open-source
+  artifacthub.io/signKey: |
+    fingerprint: B3B09108406A7DFE92757807A79624786AE252EB
+    url: https://keybase.io/flowable_oss/pgp_keys.asc
+apiVersion: v2
+appVersion: 6.8.0
+description: A Flowable Helm chart for Kubernetes
+home: https://www.flowable.com/open-source
+icon: https://www.flowable.com/open-source/docs/img/logo.png
+keywords:
+- flowable
+- BPMN
+- CMMN
+- DMN
+maintainers:
+- email: yvoswillens@gmail.com
+  name: yvoswillens
+name: flowable
+sources:
+- https://github.com/flowable/flowable-engine/
+version: 6.8.0
